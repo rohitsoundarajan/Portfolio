@@ -5,9 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // Add these two lines (Case Sensitive!)
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio', 
+  // Remove or comment out the basePath and assetPrefix lines
 };
 
 export default nextConfig;
