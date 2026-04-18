@@ -1,9 +1,13 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   output: 'export',
-  images: { unoptimized: true },
-  basePath: '/Portfolio', // Add this line
+  images: {
+    unoptimized: true,
+  },
+  // Add these two lines (Case Sensitive!)
+  basePath: '/Portfolio',
+  assetPrefix: '/Portfolio', 
 };
 
 export default nextConfig;
